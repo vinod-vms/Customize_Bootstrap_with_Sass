@@ -1,0 +1,31 @@
+{
+  "name": "customize_bootstrap_with_sass",
+  "version": "1.0.0",
+  "description": "how to customize bootstrap with sass",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "sass --watch custom_scss/custom.scss:assets/css/customized_bootstrap.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinod-vms/Customize_Bootstrap_with_Sass.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Vinod Mathew Sebastian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinod-vms/Customize_Bootstrap_with_Sass/issues"
+  },
+  "homepage": "https://github.com/vinod-vms/Customize_Bootstrap_with_Sass#readme",
+  "devDependencies": {
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "bootstrap": "^5.1.1",
+    "postcss-cli": "^8.3.1"
+  }
+}
