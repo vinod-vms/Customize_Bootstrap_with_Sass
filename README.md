@@ -8,7 +8,7 @@ Clone this repo and run: `npm install`.
 
 The index.html file is already linked to the customized_bootstrap.css file in the `assets/css` folder.
 
-After running `npm install`, Bootstrap containing the node_modules directory will be installed.
+After running `npm install`, node_modules directory containing Bootstrap and the Sass compiler will be installed.
 
 The default Bootstrap .css file is `./node_modules/bootstrap/dist/css/bootstrap.min.css`
 
